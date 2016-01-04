@@ -10,5 +10,8 @@ according to a set of specifications. These specifications are:
 This will be a very large text file, roughly 180 MB. Afterward, when run without any command line arguments, it prompt the user to enter a possible password
 and will indicate if it is valid; if it is not, it will provide 15 possible passwords with the longest prefix to the entered password.
 
+Words are stored in a De La Briandais Trie. I created this class (DLBT.java) with my own code based off of an explanation given in class. Words are stored by character,
+making storage much more efficient for longer strings of words that share prefixes with other words stored in the same trie.
+
 I am including this project in my GitHub reportoire because I put in a large amount of work to make sure that this project was fully functional,
 and I am proud of the end result. I received a 100% on this submission.
